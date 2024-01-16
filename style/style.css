@@ -666,4 +666,14 @@ label #btn, label #cancel{
         height:100%;
     }
     /* End perfect place responsive section */
+
+    /* start newslater section responsive */
+    #newslater{
+        margin:10px 20px;
+        flex-direction: column;
+    }
+    .newslater-img{
+        width:100%;
+    }
+    /* end newslater responsive code */
 }
