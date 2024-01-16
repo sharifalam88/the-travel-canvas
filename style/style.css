@@ -66,6 +66,76 @@ label #btn, label #cancel{
 }
 /* design done for header nav part */
 
+/* Style for main section */
+
+/* style banner section */
+#banner{
+    margin:20px 100px;
+    background-image:url('../images/Group 13 (1) (1).png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:block;
+}
+.banner-wraper{
+    padding:100px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    overflow:hidden;
+}
+.banner-inner-text, .banner-btn{
+    text-align:center;
+    margin:0px 100px;
+}
+.banner-inner-text .banner-title{
+    font-size:64px;
+    color:#ffffff;
+    font-weight:800;
+    margin-bottom:20px;
+}
+.banner-inner-text .banner-description{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    margin-bottom:20px;
+}
+.banner-btn{
+    width:55%;
+    height:40px;
+    background:rgba(255, 255, 255, 0.30);
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    padding:17px 0px;
+    border-radius:8px;
+}
+.banner-btn button{
+    background-color:#ffffff;
+    padding:15px 20px;
+    border:none;
+    border-radius:8px;
+    margin-left:15px;
+    font-size:16px;
+    color:rgba(19, 19, 24, 0.50);
+    font-weight:700;
+}
+.banner-btn .fas{
+    margin-left:20px;
+}
+.banner-btn button:first-child{
+    margin-left:0px;
+}
+.banner-btn button:last-child{
+    background:#FF5400;
+    color:#ffffff;
+}
+.banner-btn .fa-search{
+    margin-right:20px;
+    margin-left:0px;
+}
+
+
+
 
 
 
@@ -114,4 +184,38 @@ label #btn, label #cancel{
         display:block;
     }
     /* menu responsive style finished */
+
+    /* Banner section responsive for small devices */
+    #banner{
+        margin:10px 20px;
+    }
+    .banner-wraper{
+        padding:30px 0px;
+    }
+    .banner-inner-text{
+        margin:0px 20px;
+        font-size:14px;
+        line-height:21px;
+    }
+    .banner-inner-text .banner-title{
+        font-size:25px;   
+    }
+    .banner-btn{
+        margin:0px;
+    }
+    .banner-btn{
+        width:90%;
+        height:auto;
+        margin:0px auto;
+    }
+    .banner-btn button{
+        display:block;
+        width:90%;
+        margin:20px auto;
+    }
+    .banner-btn button:first-child{
+        margin:auto;
+    }
+    /* Banner section responsive done */
+
 }
