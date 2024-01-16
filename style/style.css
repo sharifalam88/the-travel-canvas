@@ -187,6 +187,7 @@ label #btn, label #cancel{
 .tour-img{
     width:100%;
 }
+/* End tour section style */
 
 
 
@@ -293,5 +294,6 @@ label #btn, label #cancel{
     .tour-img img{
         width:100%;
     }
+    /* End tour section responsive style */
 
 }
