@@ -226,6 +226,81 @@ label #btn, label #cancel{
 }
 /* End style for destination section*/
 
+/* Start chose section style */
+#chose{
+    margin:50px 100px;
+}
+#chose .chose-title{
+    text-align:center;
+    color:#131318;
+    font-size:40px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+#chose .chose-text{
+    color:rgba(19, 19, 24, 0.70);
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    text-align:center;
+    margin:0px 200px;
+}
+/* style for chose column */
+.two-column{
+    display:flex;
+    gap:30px;
+    margin-top:40px;
+}
+.two-column-left{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding:32px;
+}
+.two-column-left .fa-clinic-medical{
+    font-size:50px;
+    color:#FF5400;
+    margin-bottom:20px;
+}
+.two-column-left h3, .two-column-right h3, .single-column h3{
+    color:#131318;
+    font-size:24px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+.two-column-left p, .two-column-right p, .single-column p{
+    color:#5A5A5D;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    margin-bottom:20px;
+}
+.two-column-right{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding:32px;
+}
+.two-column-right .fa-map-marker-alt{
+    font-size:50px;
+    color:blue;
+    margin-bottom:20px;
+}
+.single-column{
+    margin:40px 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding:32px;
+}
+.single-column .fa-hand-holding-usd{
+    font-size:50px;
+    color:rgb(235, 11, 11);
+    margin-bottom:20px;
+}
+/* End chose section section style */
+
+
 
 
 
@@ -355,6 +430,26 @@ label #btn, label #cancel{
     .row img{
         width:100%;
     }
-
+    /* responsive style for chose section */
+    #chose{
+        margin:10px 20px;
+    }
+    #chose .chose-title{
+        font-size:20px;
+        font-weight:800;
+    }
+    #chose .chose-text{
+        font-size:14px;
+        font-weight:400;
+        line-height:24px;
+        margin:10px 0px;
+    }
+    .two-column{
+        flex-direction:column;
+    }
+    .single-column{
+        margin:20px 0px;
+    }
+    /* End chose section responsive */
 
 }
