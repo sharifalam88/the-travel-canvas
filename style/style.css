@@ -133,7 +133,60 @@ label #btn, label #cancel{
     margin-right:20px;
     margin-left:0px;
 }
+/* End banner style section*/
 
+/* Start tour section style */
+#tour{
+    margin:50px 100px;
+    display:flex;
+}
+.tour-text h2{
+    color:#131318;
+    font-size:40px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+.tour-text{
+    margin-right:30px;
+}
+.tour-text p{
+    color:rgba(19, 19, 24, 0.70);
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    margin-bottom:20px;
+}
+/* style for tour text span */
+.tour-text ul span{
+    text-transform:uppercase;
+    font-size:20px;
+    color:#FF5400;
+    border-bottom: 2px solid #131318;
+}
+/* style for tour text unordered list */
+.tour-text ul li{
+    margin-bottom:20px;
+}
+.tour-text ul li a{
+    text-decoration:none;
+    color:rgba(19, 19, 24, 0.70);
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+}
+/* style for tour text button */
+.tour-text .tour-btn{
+    background:#FF5400;
+    color:#ffffff;
+    font-size:20px;
+    font-weight:700;
+    padding:15px 35px;
+    border:none;
+    border-radius:8px;
+}
+.tour-img{
+    width:100%;
+}
 
 
 
@@ -154,7 +207,7 @@ label #btn, label #cancel{
     label #btn{
         display:block;
     }
-    ul{
+    .main-menu{
         position:fixed;
         width:100%;
         height:100vh;
@@ -217,5 +270,28 @@ label #btn, label #cancel{
         margin:auto;
     }
     /* Banner section responsive done */
+
+    /* responsive style for tour section */
+    #tour{
+        margin:10px 20px;
+        flex-direction:column;
+    }
+    .tour-text h2{
+        font-size:20px;
+        font-weight:800;
+    }
+    .tour-text p{
+        font-size:14px;
+        line-height:24px;
+    }
+    .tour-text ul span{
+        font-size:16px;
+    }
+    .tour-img{
+        margin-top:20px;
+    }
+    .tour-img img{
+        width:100%;
+    }
 
 }
