@@ -300,6 +300,78 @@ label #btn, label #cancel{
 }
 /* End chose section section style */
 
+/* Start deal and discount section */
+#maldives, #nepal, #indonesia{
+    margin:50px 100px;
+    background-image:url('../images/Group 39.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:block;
+    padding:50px 0px;
+}
+.maldives-inner, .indonesia-inner{
+    background:#ffffff;
+    width:500px;
+    height:auto;
+    border-radius:8px;
+    opacity:0.9;
+    margin-left:500px;
+    padding:50px;
+}
+.nepal-inner{
+    background:#ffffff;
+    width:500px;
+    height:auto;
+    border-radius:8px;
+    opacity:0.9;
+    margin-left:50px;
+    padding:50px;
+}
+
+.maldives-inner-btn{
+    background:none;
+    border:none;
+    color:#5A5A5D;
+    font-size:16px;
+    font-weight:400;
+    margin-right:20px;
+}
+.maldives-inner-btn .inner-icon{
+    margin-right:20px;
+    font-size:30px;
+    color:#FF5400;
+}
+.maldives-inner h3, .nepal-inner h3, .indonesia-inner h3{
+    font-size:24px;
+    font-weight:800;
+    color:#131318;
+    margin:20px 0px;
+}
+.maldives-inner p, .nepal-inner p, .indonesia-inner p{
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    color:#5A5A5D;
+    margin-bottom:20px;
+}
+.maldives-inner h5, .nepal-inner h5, .indonesia-inner h5{
+    font-size:20px;
+    font-weight:800;
+    color:#FF5400;
+    margin-bottom:20px;
+}
+.indone-btn{
+    background:#FF5400;
+    font-size:20px;
+    font-weight:800;
+    color:#ffffff;
+    padding:10px 25px;
+    border:none;
+    border-radius:8px;
+}
+/* End style of deal and discount section */
+
+
 
 
 
@@ -451,5 +523,19 @@ label #btn, label #cancel{
         margin:20px 0px;
     }
     /* End chose section responsive */
-
+    /* Start responsive for deal and discount section */
+    #maldives, #nepal, #indonesia{
+        margin:10px 20px;
+       
+    }
+    .maldives-inner, .indonesia-inner, .nepal-inner{
+        margin:0px auto;
+        width:70%;
+    }
+    .maldives-inner-btn .inner-icon{
+        margin-right:20px;
+        font-size:30px;
+        color:#FF5400;
+    }
+    /* End deal and discount part responsive */
 }
