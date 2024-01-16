@@ -370,6 +370,54 @@ label #btn, label #cancel{
     border-radius:8px;
 }
 /* End style of deal and discount section */
+/* style for perfect place section */
+#perfect-place{
+    margin:50px 100px;
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.perfect-left .perfect-place-title{
+    color: #131318;
+    font-size:40px;
+    font-weight:800;
+    line-height:60px;
+    margin-bottom:20px;
+}
+.perfect-left .perfect-place-text{
+    color:#5A5A5D;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    margin-bottom:20px;
+}
+.perfect-left .perfect-place-nav{
+    margin-bottom:20px;
+}
+.perfect-left .perfect-place-nav li{
+    margin-bottom:20px;
+}
+.perfect-left .perfect-place-nav li a{
+    text-decoration:none;
+    font-size:16px;
+    font-weight:700;
+    line-height:26px;
+    color: #131318;
+}
+.perfect-left .perfect-btn{
+    background:#FF5400;
+    font-size:20px;
+    font-weight:800;
+    color:#ffffff;
+    padding:10px 25px;
+    border:none;
+    border-radius:8px;
+}
+.perfect-right .perfect-right-video{
+    width:600px;
+    height:400px;
+    border-radius:8px;
+}
 
 
 
